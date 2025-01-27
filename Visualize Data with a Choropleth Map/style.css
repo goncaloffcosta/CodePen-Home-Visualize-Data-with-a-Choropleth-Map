@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#choropleth {
+  display: block;
+  margin: 0 auto;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 3px;
+  pointer-events: none;
+  opacity: 0;
+  font-size: 12px;
+}
+
+.legend rect {
+  margin: 0 2px;
+}
